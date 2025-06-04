@@ -14,6 +14,6 @@ int main(){
         if(a[i]==max)
             nr++;
     }
-    cout << max << " " << nr << endl;
+    cout << "Maximul din sirul a este: " << max << " Si apare de" << nr << " ori"<< endl;
     return 0;
 }

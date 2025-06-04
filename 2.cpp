@@ -16,6 +16,6 @@ int main(){
                 max=a[i];
         }
     }
-    cout << min << " " << max << endl;
+    cout << "Minimul din sirul a: " << min << " Maximul din sirul a: " << max << endl;
     return 0;
 }

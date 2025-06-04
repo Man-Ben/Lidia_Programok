@@ -11,6 +11,6 @@ int main() {
         sum+=a[i];
     }
     ma=sum/nr;
-    cout << ma << endl;
+    cout << "Media aritmetica al elementelor din sirul a este: " << ma << endl;
 return 0;
 }
