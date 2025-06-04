@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int n, ma=0, nr=0, sum = 0;
+    int n, sum=0;
+    float nr=0, ma=0;
     cin >> n;
     int a[n];
     for(int i=0; i<=n-1; i++){
