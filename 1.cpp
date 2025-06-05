@@ -8,7 +8,7 @@ int main() {
     for(int i=0; i<=n-1; i++){
         cin >> a[i];
         nr++;
-        sum+=a[i];
+        sum=sum+a[i];
     }
     ma=sum/nr;
     cout << "Media aritmetica al elementelor din sirul a este: " << ma << endl;
