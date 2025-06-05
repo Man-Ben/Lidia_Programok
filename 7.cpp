@@ -9,7 +9,7 @@ int main(){
     for(i=0; i<=n-1; i++)
         if(a[i]%2==0 && a[i+1]%2!=0 || a[i]%2!=0 && a[i+1]%2==0)
             nr++;
-    if(nr==n/2)
+    if(nr==n)
         cout << "Da";
     else 
         cout << "Nu";
